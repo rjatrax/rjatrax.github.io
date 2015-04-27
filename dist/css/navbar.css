@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300);
 
 nav{
 	background: #fff;
@@ -12,7 +12,7 @@ nav{
 
 .nav{
 	margin-right: 45px !important;
-	margin-top: 25px !important;
+	margin-top: 35px !important;
 }
 
 .navbar-toggle span{
@@ -22,7 +22,10 @@ nav{
 .navbar-text{
 color: #747474;
 font-family: 'Lato', sans-serif;
-font-size: 18
+text-align: justify;
+font-size: 18px;
+font-weight:300;
+margin-top: 35px !important;
 }
 
 a{
@@ -38,13 +41,13 @@ a{
 
 @media screen and (max-width: 768px){
 .navbar-brand{
- margin-top: -16px ;
+ margin-top: -18px ;
 }
 }
 
 @media screen and (max-width: 600px) {
 .navbar-brand{
- margin-top: -16px ;
+ margin-top: -23px ;
 }
 }
 
@@ -57,9 +60,9 @@ nav{
 }
 
 .navbar-text{
-	font-size: 14px;
+	font-size: 15px;
 }
 .navbar-brand{
- margin-top: -16px ;
+ margin-top: -28px ;
 }
 }
