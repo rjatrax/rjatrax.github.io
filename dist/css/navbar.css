@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+nav{
+	background: #fff;
+
+}
+
+.logo{
+	margin-left: 45px;
+	margin-top: 0px;
+}
+
+.nav{
+	margin-right: 45px !important;
+	margin-top: 25px !important;
+}
+
+.navbar-toggle span{
+	background: #747474;
+}
+
+.navbar-text{
+color: #747474;
+font-family: 'Lato', sans-serif;
+font-size: 18
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+	color:#747474;
+}
+
+.navbar-nav li a:hover{
+	background: transparent;
+ 	color: #1E84C5;
+}
+
+
+@media screen and (max-width: 768px){
+.navbar-brand{
+ margin-top: -16px ;
+}
+}
+
+@media screen and (max-width: 600px) {
+.navbar-brand{
+ margin-top: -16px ;
+}
+}
+
+@media screen and (max-width: 480px) {
+nav{
+	height: auto;
+}
+.logo{
+	margin-left: 3px;
+}
+
+.navbar-text{
+	font-size: 14px;
+}
+.navbar-brand{
+ margin-top: -16px ;
+}
+}

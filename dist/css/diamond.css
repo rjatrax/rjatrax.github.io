@@ -1,0 +1,324 @@
+/*diamond*/
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 66px;
+    margin-top: 60px;
+}
+
+
+.diamond {
+    height: 120px;
+    width: 120px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 110px;
+    height: 110px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 0 16px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+@media screen and (max-width: 1104px) {
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+
+.diamond {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 90px;
+    height: 90px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding:0 7px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+
+.diamond {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 90px;
+    height: 90px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding:0 7px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 880px){
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+
+.diamond {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 90px;
+    height: 90px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding:0 7px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 768px){
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+
+.diamond {
+    height: 90px;
+    width: 90px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding:0 7px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+.diamond-grid li{
+    list-style: none;
+    float: left;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+
+.diamond {
+    height: 90px;
+    width: 90px;
+    background: transparent;
+    color: #1E84C5;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 3px solid #1E84C5;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color .35s linear;
+    -moz-transition: color .35s linear;
+    -o-transition: color .35s linear;
+    transition: color .35s linear;
+}
+
+.diamond:hover {
+    background: #1E84C5;
+    color: #fff
+
+}
+
+.text{
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    padding:0 7px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+}

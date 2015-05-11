@@ -1,0 +1,214 @@
+@media screen and (max-width: 1104px) {
+/*slide2*/
+.slide2{
+    height: 680px !important;
+}
+
+
+.slide4{
+    height: 780px !important;
+}
+}
+
+@media screen and (max-width: 992px) {
+/*slide2*/
+.slide2{
+    height: 640px !important;
+}
+
+/*slide3*/
+.slide3{
+    height: 830px !important;
+}
+#picture{
+    padding: 30px 0 0;
+}
+
+/*slide4*/
+.slide4{
+    height: 780px !important;
+}
+
+/*slide5*/
+.slide5{
+    height: 870px !important;
+}
+
+/*slide6*/
+#message{
+    padding: 20px 0 0;
+}
+
+
+}
+
+@media screen and (max-width: 880px){
+/*slide2*/
+.slide2{
+    height: 620px !important;
+}
+
+/*slide3*/
+.slide3{
+    height: 850px !important;
+}
+#picture{
+    padding: 30px 0 0;
+}
+
+/*slide4*/
+.slide4{
+    height: 780px !important;
+}
+
+/*slide5*/
+.slide5{
+    height: 880px !important;
+}
+/*slide6*/
+#message{
+    padding: 20px 0 0;
+}
+
+
+}
+
+@media screen and (max-width: 768px){
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 46px;
+    text-align: center;
+}
+/*slide2*/
+.slide2{
+    height: 640px !important;
+}
+
+/*slide3*/
+.slide3{
+    height: 880px !important;
+}
+#picture{
+    padding: 30px 0 0;
+}
+
+/*slide4*/
+.slide4{
+    height: 870px !important;
+}
+
+/*slide5*/
+.slide5{
+    height: 840px !important;
+}
+/*slide6*/
+.slide6{
+    height: 700px !important;
+}
+#message{
+    padding: 20px 0 0;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+   text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
+}
+
+/*slide2*/
+.slide2{
+    height: 740px !important;
+}
+
+/*slide3*/
+.slide3{
+    height: 880px !important;
+}
+#picture{
+    padding: 30px 0 0;
+}
+
+/*slide4*/
+.slide4{
+    height: 1000px !important;
+}
+
+/*slide5*/
+.slide5{
+        height: 850px !important;
+}
+
+/*slide6*/
+.slide6{
+    height: 740px !important;
+}
+#message{
+    padding: 20px 0 0;
+}
+}
+
+@media screen and (max-width: 480px) {
+/*slide1*/
+.slide1{
+    height: 100%;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 34px;
+    text-align: center;
+}
+.intro{
+   padding: 150px 0 0;
+}
+.center-button{
+    background: #85caef;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 38px;
+}
+
+/*slide3*/
+.slide3{
+    height: 900px !important;
+}
+#picture{
+    padding: 30px 0 0;
+}
+
+/*slide4*/
+.slide4{
+    height: 1320px !important;
+}
+
+/*slide5*/
+.slide5{
+        height: 900px !important;
+    }
+
+/*slide6*/
+.slide6{
+    height: 690px !important;
+}
+#message{
+    padding: 20px 0 0;
+}
+{

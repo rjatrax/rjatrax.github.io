@@ -1,0 +1,59 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>&#60; ATRAX &#62;</title>
+<link rel="icon" href="img/fav.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="/dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="dist/css/navbar.css">
+<link rel="stylesheet" href="dist/css/front.css">
+<link rel="stylesheet" type="text/css" href="dist/css/media.css">
+<link rel="stylesheet" type="text/css" href="dist/css/diamond.css">
+
+	<script>
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+</script>
+
+<link rel="stylesheet" href="dist/css/animate.css">
+	<script type="text/javascript" src="dist/js/wow.min.js"></script>
+<script type="text/javascript">
+var wow = new WOW(
+{
+
+ 	boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       100,          // default
+      mobile:       true,       // default
+      live:         true 
+}
+
+
+	);wow.init();
+</script>
